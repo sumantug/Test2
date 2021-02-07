@@ -118,6 +118,8 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
           <configuration>
+          <testFailureIgnore>true</testFailureIgnore>
+           <shutdown>kill</shutdown> 
           <suiteXmlFiles>
           <suiteXmlFile>C:\Users\sumantu\workspace\Test2\testng.xml</suiteXmlFile>
           </suiteXmlFiles>
